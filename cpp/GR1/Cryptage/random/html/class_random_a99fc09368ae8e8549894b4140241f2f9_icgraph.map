@@ -1,0 +1,7 @@
+<map id="Random::inversionMaxiMini" name="Random::inversionMaxiMini">
+<area shape="rect" title="Inverse si besoin les valeurs mini et maxi." alt="" coords="212,81,396,108" />
+<area shape="rect" href="$class_random.html#a6e993da9e80841543d6041a27bf252e2" title="Constructeur." alt="" coords="20,5,148,32" />
+<area shape="rect" href="$class_random.html#ab7f67050fd954cf9c1bfa6fc6f9922ae" title="Modifie la valeur maxi et reremplit le tableau." alt="" coords="22,56,147,83" />
+<area shape="rect" href="$class_random.html#ad6851f50fc3f26afeb744fc5a29cec60" title="Modifie la valeur mini et reremplit le tableau." alt="" coords="24,107,144,133" />
+<area shape="rect" href="$class_random.html#a1c5519f58465025e80223b0c6a0a88bc" title="Retourne une valeur aléatoire comprise dans la fourchette spécifiée." alt="" coords="6,157,163,184" />
+</map>

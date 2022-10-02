@@ -1,0 +1,6 @@
+<map id="Random::setTaille" name="Random::setTaille">
+<area shape="rect" title="Modifie la taille du tableau et le reremplit." alt="" coords="7,31,135,57" />
+<area shape="rect" href="$class_random.html#ab07452ab05f0f9657a144028a85599ab" title="Remplir le tableau." alt="" coords="185,5,327,32" />
+<area shape="rect" href="$class_random.html#a62df9d32d60ced29425b1386f0538bac" title="Test si la taille demandée est correcte et éventuellement la modifie." alt="" coords="191,56,321,83" />
+<area shape="rect" href="$class_random.html#a47f6275c913fde8d741c16c0ee8b04ec" title="Retourne une valeur aléatoire." alt="" coords="376,5,528,32" />
+</map>

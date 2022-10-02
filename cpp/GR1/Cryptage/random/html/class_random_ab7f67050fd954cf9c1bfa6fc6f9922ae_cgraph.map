@@ -1,0 +1,7 @@
+<map id="Random::setMaxi" name="Random::setMaxi">
+<area shape="rect" title="Modifie la valeur maxi et reremplit le tableau." alt="" coords="6,56,131,83" />
+<area shape="rect" href="$class_random.html#a99fc09368ae8e8549894b4140241f2f9" title="Inverse si besoin les valeurs mini et maxi." alt="" coords="180,6,364,32" />
+<area shape="rect" href="$class_random.html#ab07452ab05f0f9657a144028a85599ab" title="Remplir le tableau." alt="" coords="202,56,343,83" />
+<area shape="rect" href="$class_random.html#a62df9d32d60ced29425b1386f0538bac" title="Test si la taille demandée est correcte et éventuellement la modifie." alt="" coords="207,107,338,134" />
+<area shape="rect" href="$class_random.html#a47f6275c913fde8d741c16c0ee8b04ec" title="Retourne une valeur aléatoire." alt="" coords="414,56,566,83" />
+</map>
