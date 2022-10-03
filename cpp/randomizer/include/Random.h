@@ -30,6 +30,7 @@ class Random
         void 	inversionMaxiMini ();
         void 	testTaille ();
         uniform_int_distribution<int> dis;
+        static void 	inversionMaxiMini (int &mini, int &maxi);
         bool    exclusif;
         int     maxi;
         int     mini;

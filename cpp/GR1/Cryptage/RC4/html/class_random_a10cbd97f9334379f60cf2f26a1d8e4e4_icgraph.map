@@ -1,0 +1,6 @@
+<map id="Random::creerTableau" name="Random::creerTableau">
+<area shape="rect" href="$class_random.html#a8c430a0f7be272e2dcffbbeb9f306591" title="Constructeur. " alt="" coords="212,5,340,32" />
+<area shape="rect" href="$class_random.html#a6bcc509e921f0801b738388dc52f8e60" title="Modifie la taille du tableau et le reremplit. " alt="" coords="212,56,340,83" />
+<area shape="rect" href="$class_random.html#a0f1139f9456721b723c11551082da24a" title="Modifie la valeur maxi et reremplit le tableau. " alt="" coords="214,107,339,133" />
+<area shape="rect" href="$class_random.html#ab88d303ab7627e75ad08d43055d50a24" title="Modifie la valeur mini et reremplit le tableau. " alt="" coords="216,157,336,184" />
+</map>

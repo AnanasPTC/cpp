@@ -17,3 +17,18 @@
 	<random>
 	<vector>
 
+1664784172 source:c:\users\eleve\documents\sn2\github\cpp\cpp\randomizer\main.cpp
+	<iostream>
+
+1664787358 source:c:\users\eleve\documents\sn2\github\cpp\cpp\randomizer\src\random.cpp
+	"Random.h"
+	"random.h"
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
+1664785634 c:\users\eleve\documents\sn2\github\cpp\cpp\randomizer\include\random.h
+	<vector>
+	<random>
+	<vector>
+

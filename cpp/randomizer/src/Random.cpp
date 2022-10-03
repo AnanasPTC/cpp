@@ -4,9 +4,19 @@
 #include <ctime>
 #include <algorithm>
 
+mt19937 Random::mt(time(nullptr));
+
 Random::Random(int mini, int maxi, int taille, bool exclusif)
 {
+    this->mini=mini;
+    this->maxi=maxi;
+    this->taille=taille;
+    this->exclusif=exclusif;
 
+    inversionMaxiMini();
+    dis = uniform_int_distribution <int>(this->mini,this->maxi);
+    testTaille();
+    remplirTab();
 }
 
 Random::~Random()
@@ -27,7 +37,7 @@ void Random::inversionMaxiMini()
 
 int Random::calculValeur()
 {
-
+    return dis(mt);
 }
 
 void Random::testTaille()
@@ -63,7 +73,19 @@ int Random::getTaille() const
 
 void Random::remplirTab()
 {
+    int alea;
+    tabRandom.clear();
 
+    do
+    {
+        alea=calculValeur();
+        if(exclusif)
+            while(find(tabRandom.begin(), tabRandom.end(),alea) != tabRandom.end())
+                alea=calculValeur();
+
+        tabRandom.push_back(alea);
+
+    }while(static_cast <int>(tabRandom.size()) < taille);
 }
 
 void Random::setMaxi(int maxi)
@@ -86,7 +108,9 @@ void Random::setTaille(int taille)
 
 int Random::valeurUnique(int valMini,int valMaxi)
 {
-
+    inversionMaxiMini(valMini,valMaxi);
+    uniform_int_distribution<int> dis (valMini,valMaxi);
+    return dis(mt);
 }
 
 int Random::operator[](int indice) const
@@ -101,4 +125,16 @@ int Random::operator[](int indice) const
         reponse=tabRandom[indice];
     }
     return reponse;
+}
+
+void Random::inversionMaxiMini(int & mini,int & maxi)
+{
+    int tempon;
+
+    if(mini>maxi)
+    {
+        tempon=mini;
+        mini=maxi;
+        maxi=tempon;
+    }
 }

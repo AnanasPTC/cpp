@@ -1,0 +1,6 @@
+<map id="Random::setTaille" name="Random::setTaille">
+<area shape="rect" href="$class_random.html#a10cbd97f9334379f60cf2f26a1d8e4e4" title="Créer le tableau. " alt="" coords="184,5,341,32" />
+<area shape="rect" href="$class_random.html#ab07452ab05f0f9657a144028a85599ab" title="Remplir le tableau. " alt="" coords="192,56,333,83" />
+<area shape="rect" href="$class_random.html#a47f6275c913fde8d741c16c0ee8b04ec" title="Retourne une valeur aléatoire. " alt="" coords="403,31,555,57" />
+<area shape="rect" href="$class_random.html#a371d36a333ea87307c8c8726b3ca9fd9" title="Rechercher si une valeur est présente. " alt="" coords="391,81,567,108" />
+</map>
