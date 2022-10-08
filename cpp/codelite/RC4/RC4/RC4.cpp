@@ -4,7 +4,10 @@
 
 RC4::RC4(unsigned int tailleCle=0)
 {
-	
+	if(tailleCle==0)
+	{
+		
+	}
 }
 
 RC4::RC4(unsigned char* cle,int taille)
