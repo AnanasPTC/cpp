@@ -1,4 +1,7 @@
-#include "RC4.h"
-#include <iostream>
-#include "random.h"
+#include <stdio.h>
 
+int main(int argc, char **argv)
+{
+	printf("hello world\n");
+	return 0;
+}

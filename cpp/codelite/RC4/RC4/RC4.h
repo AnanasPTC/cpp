@@ -12,6 +12,7 @@ class RC4
 	RC4(unsigned int tailleCle=0);
 	RC4(unsigned char *cle,int tailleCle);
 	RC4(vector<unsigned char>cle);
+	
 
 	private:
 	void genereCle();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="RC4" Database="" Version="10000">
+  <Project Name="RC4" Path="RC4.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="RC4" ConfigName="Debug"/>
+      <Project Name="RC4" ConfigName="Debug"/>
+      <Project Name="RC4" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="RC4" ConfigName="Release"/>
+      <Project Name="RC4" ConfigName="Release"/>
+      <Project Name="RC4" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
