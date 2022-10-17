@@ -1,4 +1,3 @@
-C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\test\main.cpp
 C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\main.cpp
 C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\Random.h
 C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\Random.cpp
