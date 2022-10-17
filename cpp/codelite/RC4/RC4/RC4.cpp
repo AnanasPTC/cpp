@@ -38,12 +38,12 @@ void RC4::genereCle()
 
 vector<unsigned char> RC4::getCle()
 {
-	
+	return cle;
 }
 
 unsigned int RC4::getTailleCle()
 {
-	
+	return tailleCle;
 }
 
 void RC4::initCodageDecodage()

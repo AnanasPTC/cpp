@@ -9,7 +9,7 @@ class RC4
 	vector<unsigned char> getCle();
 	unsigned int getTailleCle();
 	void initCodageDecodage();
-	RC4(unsigned int tailleCle=0);
+	RC4(unsigned int tailleCle=4);
 	RC4(unsigned char *cle,int tailleCle);
 	RC4(vector<unsigned char>cle);
 	

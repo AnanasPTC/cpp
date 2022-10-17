@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=lucas
-Date                   :=10/10/2022
+Date                   :=17/10/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/msys64/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/msys64/mingw64/bin/g++.exe -shared -fPIC
@@ -64,7 +64,7 @@ AS       := C:/msys64/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) $(IntermediateDirectory)/Random.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Random.cpp$(ObjectSuffix) $(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) 
 
 
 
@@ -95,11 +95,11 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix): RC4.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/RC4.cpp$(DependSuffix) -MM RC4.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/lucas/Documents/GitHub/cpp/cpp/codelite/RC4/RC4/RC4.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/RC4.cpp$(PreprocessSuffix): RC4.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/RC4.cpp$(PreprocessSuffix) RC4.cpp
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/lucas/Documents/GitHub/cpp/cpp/codelite/RC4/RC4/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Random.cpp$(ObjectSuffix): Random.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Random.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Random.cpp$(DependSuffix) -MM Random.cpp
@@ -107,11 +107,11 @@ $(IntermediateDirectory)/Random.cpp$(ObjectSuffix): Random.cpp
 $(IntermediateDirectory)/Random.cpp$(PreprocessSuffix): Random.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Random.cpp$(PreprocessSuffix) Random.cpp
 
-$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/lucas/Documents/GitHub/cpp/cpp/codelite/RC4/RC4/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix): RC4.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/RC4.cpp$(DependSuffix) -MM RC4.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/lucas/Documents/GitHub/cpp/cpp/codelite/RC4/RC4/RC4.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/RC4.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/RC4.cpp$(PreprocessSuffix): RC4.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/RC4.cpp$(PreprocessSuffix) RC4.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
