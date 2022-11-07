@@ -4,12 +4,14 @@
 
 RC4::RC4(unsigned int tailleCle):tailleTableauEtat(256)
 {
-	this->tailleCle=tailleCle;
-	if(tailleCle==0)
+	this->tailleCle = tailleCle;
+	if(tailleCle == 0)
 	{
-		tailleCle=Random::valeurUnique(40,255);
+		this->tailleCle=Random::valeurUnique(40,255);
 	}
 	genereCle();
+	this->tableauEtat.resize(tailleTableauEtat);
+	initCodageDecodage();
 }
 
 RC4::RC4(unsigned char* cle,int taille):tailleTableauEtat(256)
@@ -40,7 +42,7 @@ unsigned char RC4::chiffrage(unsigned char octet)
 
 void RC4::genereCle()
 {
-	Random ares(1,255+tailleCle,false);
+	Random ares(1,255,tailleCle,false);
 	vector<int> cle=ares.getTableau();
 	maCle.resize(cle.size());
 	copy(cle.begin(),cle.end(),maCle.begin());
@@ -62,6 +64,7 @@ void RC4::initCodageDecodage()
 	{
 		tableauEtat[i]=i;
 	}
+	melangeTableauEtat();
 }
 
 void RC4::melangeTableauEtat()
