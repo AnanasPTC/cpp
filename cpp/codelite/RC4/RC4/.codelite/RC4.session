@@ -1,54 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\RC4.workspace">
-  <int Value="4" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\RC4.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\RC4.h" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="27" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\RC4.cpp" Name="FileName"/>
-      <int Value="47" Name="FirstVisibleLine"/>
-      <int Value="53" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\Random.h" Name="FileName"/>
+      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\magie\magie\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\Random.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\RC4\RC4\main.cpp" Name="FileName"/>
-      <int Value="5" Name="FirstVisibleLine"/>
-      <int Value="24" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\msys64\mingw64\include\c++\12.2.0\bits\stl_vector.h" Name="FileName"/>
-      <int Value="1114" Name="FirstVisibleLine"/>
-      <int Value="1123" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\msys64\mingw64\include\c++\12.2.0\bits\allocator.h" Name="FileName"/>
-      <int Value="149" Name="FirstVisibleLine"/>
-      <int Value="155" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

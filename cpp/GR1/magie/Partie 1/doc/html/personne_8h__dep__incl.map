@@ -1,0 +1,4 @@
+<map id="personne.h" name="personne.h">
+<area shape="rect" title="Permet de gérer une personne." alt="" coords="12,5,100,32" />
+<area shape="rect" href="$personne_8cpp.html" title="Permet de gérer une personne." alt="" coords="5,80,107,107" />
+</map>
