@@ -1,4 +1,4 @@
-#include "Personne.hpp"
+#include "Personne.h"
 #include "iostream"
 
 const int Personne::AGE_MAXI = 120;
@@ -34,8 +34,7 @@ void Personne::sePresenter()
 bool Personne::setAge(int age)
 {
     bool vraixAge = false;
-    if ( this->AGE_MAXI > age && this->AGE_MINI < age)  
-	{
+    if ( (this->AGE_MAXI > age) && (this->AGE_MINI < age) ) {
         this->age = age;
         vraixAge = true;
     }

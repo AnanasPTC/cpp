@@ -1,0 +1,3 @@
+C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\magie\magieproject\main.cpp
+C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\magie\magieproject\Personne.cpp
+C:\Users\lucas\Documents\GitHub\cpp\cpp\codelite\magie\magieproject\Personne.hpp

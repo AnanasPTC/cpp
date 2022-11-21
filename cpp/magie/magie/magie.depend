@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669029047 source:c:\users\lucas\documents\github\cpp\cpp\magie\magie\src\personne.cpp
+	"Personne.h"
+	"iostream"
+
+1669029020 c:\users\lucas\documents\github\cpp\cpp\magie\magie\include\personne.h
+	<string>
+
